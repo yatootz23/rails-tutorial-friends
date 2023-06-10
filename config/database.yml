@@ -17,9 +17,7 @@ test:
    password: password
 
 production:
-   adapter: postgresql
-   encoding: unicode
-   database: friends
-   username: postgres
-   password: password
+<<: *default
+adapter: postgresql
+database: db/production.sqlite3
 
