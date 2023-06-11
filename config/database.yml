@@ -23,5 +23,8 @@ test:
 production:
   <<: *default
   adapter: postgresql
-  database: db/production.sqlite3
+  database: friends_5w6e
+  username: friends_5w6e_user
+  password: hhXN3qVi7gjPQSx4njlvlrfV41dy4nN9
+  host: dpg-ci2pl23hp8u1a1bilve0-a
 
