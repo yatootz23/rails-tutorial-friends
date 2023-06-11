@@ -93,4 +93,5 @@ Rails.application.configure do
 
   #config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   #config.require_master_key = true
+  config.secret_key_base = '23e5ad33cea54939bdc016ebd7bace84ea8dfe5267f59a13431eb88ecb07e27e21eb618d23fd8864bd8a01448647721ef9edbc650f0349eaf992b88a4c89268'
 end
